@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- leaflet css -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+
+     <!-- leaflet script -->
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/mappa-mundi@0.0.4"></script>
+	<script src="sketch.js"></script>
+</head>
+<style>
+    #map {
+        height: 380px;
+    }
+</style>
+<body>
+    <p>Latitude:<span id="Latitude"></span>&deg;<br></p>
+    <p>Longitude:<span id="Longitude"></span>&deg;</p>    
+    <p>Velocity:<span id="Velocity"></span></p> 
+    
+    <div id="map"></div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
